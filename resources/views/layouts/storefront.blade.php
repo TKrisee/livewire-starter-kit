@@ -22,7 +22,7 @@
     ></script>
     <link
         rel="icon"
-        href="{{ asset('favicon.svg') }}"
+        href="{{ asset('favicon.ico') }}"
     >
     @livewireStyles
 </head>
