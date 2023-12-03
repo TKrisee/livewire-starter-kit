@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" {{ $attributes->merge(['class' => 'w-auto h-12']) }} {{$attributes}} viewBox="0 0 3230.769230769231 750">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" {{ $attributes->merge(['class' => 'w-auto h-8']) }} {{$attributes}} viewBox="0 0 3230.769230769231 750">
 
 	<g transform="scale(11.538461538461538) translate(10, 10)">
 		<defs id="SvgjsDefs3505">
