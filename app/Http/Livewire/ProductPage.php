@@ -53,6 +53,12 @@ class ProductPage extends Component
      */
     public function getVariantProperty()
     {
+        dd($this->product->variants->first(function ($variant) {
+            return ! $variant->values->pluck('id')
+                ->diff(
+                    collect($this->selectedOptionValues)->values()
+                )->count();
+        }));
         return $this->product->variants->first(function ($variant) {
             return ! $variant->values->pluck('id')
                 ->diff(
